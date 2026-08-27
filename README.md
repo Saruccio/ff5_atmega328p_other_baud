@@ -1,5 +1,5 @@
 # ff5_atmega328p_other_baud
-FlashForth for ATmega328P recompiled for custom baud rate.
+FlashForth for ATmega328P recompiled for custom baud rate released in the hope that they will be useful.
 
 This repository provides precompiled `.hex` binaries and configuration sources for **FlashForth 5** configured with 
 serial baud rates not available in the main distribution.
