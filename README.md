@@ -1,22 +1,24 @@
 # ff5_atmega328p_other_baud
 FlashForth for ATmega328P recompiled for custom baud rate.
 
-This repository provides pre-compiled `.hex` binaries and configuration sources for **FlashForth 5** configured with serial baud rates not available in the main distribution.
+This repository provides precompiled `.hex` binaries and configuration sources for **FlashForth 5** configured with 
+serial baud rates not available in the main distribution.
 
-At the moment the HEX availabel are:
-- **115200**
-- **500000**
+At the moment, the `.hex` binaries available are:
+- **115200:** `328-16MHz-115200.hex`
+- **500000:** `328-16MHz-500000.hex`
 
-The images have been re-compiled from source taken from official Source Forge site; in particular from
+The images were recompiled from source taken from official SourceForge repository, specifically commit:
 
 **flashforth-code-6f2fd267ac54cb6cf166e29eaad3a9134170dfa0**
 
-To recompile the sources I installed the last suite MPLABX with all optional packages on my Linux box therfore 
-I opened the project '''flashforth/avr/FF-ATMEGA.X''' 
-and after an automatic conversion performed by the IDE itself I was able to do a build.
-From the IDE I opened the file '''flashforth/avr/src/config-xc8.inc''' and changed the UART baudrate.
+To recompile the sources I installed the latest MPLABX suite with all optional packages on a Linux system,
+opened the project `flashforth/avr/FF-ATMEGA.X`,
+and let the IDE perform an automatic conversion before building.
 
-All HEXs have been tested on my Arduino Nano V3 (ATmega328P) for my hobby projects.
+To change the baud rate, I edited the file `flashforth/avr/src/config-xc8.inc` directly within the IDE.
+
+All `.hex` binaries have been tested successfully on my Arduino Nano V3 (ATmega328P) across various hobby projects.
 
 ---
 
