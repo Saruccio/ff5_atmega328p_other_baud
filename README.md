@@ -1,5 +1,5 @@
 # ff5_atmega328p_other_baud
-FlashForth for ATmega328P recompiled for custom baud rate builds
+FlashForth for ATmega328P recompiled for custom baud rate.
 
 This repository provides pre-compiled `.hex` binaries and configuration sources for **FlashForth 5** configured with serial baud rates not available in the main distribution.
 
@@ -7,11 +7,11 @@ At the moment the HEX availabel are:
 - **115200**
 - **500000**
 
-The images have been re-compiled from sourced taken from official Source Forge site; in particular from
+The images have been re-compiled from source taken from official Source Forge site; in particular from
 
 **flashforth-code-6f2fd267ac54cb6cf166e29eaad3a9134170dfa0**
 
-following the instruction in the 
+ using as trace the instructions in the page web: https://www.flashforth.com/atmega.html
 
 All HEXs have been tested on my Arduino Nano V3 (ATmega328P) with my hobby projects.
 
