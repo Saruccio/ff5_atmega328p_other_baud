@@ -11,12 +11,16 @@ The images have been re-compiled from source taken from official Source Forge si
 
 **flashforth-code-6f2fd267ac54cb6cf166e29eaad3a9134170dfa0**
 
- using as trace the instructions in the page web: https://www.flashforth.com/atmega.html
+To recompile the sources I installed the last suite MPLABX with all optional packages on my Linux box therfore 
+I opened the project '''flashforth/avr/FF-ATMEGA.X''' 
+and after an automatic conversion performed by the IDE itself I was able to do a build.
+From the IDE I opened the file '''flashforth/avr/src/config-xc8.inc''' and changed the UART baudrate.
 
-All HEXs have been tested on my Arduino Nano V3 (ATmega328P) with my hobby projects.
+All HEXs have been tested on my Arduino Nano V3 (ATmega328P) for my hobby projects.
 
 ---
-License & Attribution
+
+## License & Attribution
 
 This project is derivative work based on FlashForth, originally created and copyrighted by Mikael Nordman.
 GNU General Public License v3.0 (GPLv3)
@@ -38,8 +42,10 @@ Under the terms of the GPLv3:
     This software comes with ABSOLUTELY NO WARRANTY.
 
 See the full license text in the LICENSE file included in this repository or visit https://www.gnu.org/licenses/gpl-3.0.html.
-🤝 Acknowledgments
+
+### Acknowledgments
 
     Mikael Nordman for creating and maintaining the FlashForth system.
 
-    The FlashForth community for ongoing hardware support and documentatio
+    The FlashForth community for ongoing hardware support and documentation
+    
